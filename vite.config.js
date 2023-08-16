@@ -13,8 +13,7 @@ export default defineConfig({
   publicDir: "../public",
   resolve: {
     alias: {
-      "@": new URL("./src", import.meta.url).pathname,
-      "~bootstrap": path.resolve(__dirname, "node_modules/bootstrap"),
+      "@": new URL("./src", import.meta.url).pathname
     }
   },
   build: {
