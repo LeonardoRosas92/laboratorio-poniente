@@ -1,0 +1,27 @@
+{
+  "name": "laboratorio-poniente",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "rm -rf dist && vite build",
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
+  },
+  "devDependencies": {
+    "eslint": "^8.47.0",
+    "eslint-config-manzdev": "^0.0.2",
+    "gh-pages": "^6.0.0",
+    "sass": "^1.65.1",
+    "stylelint": "^15.10.2",
+    "stylelint-config-manzdev": "^0.0.10",
+    "vite": "^4.4.5"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.1",
+    "van-router": "^0.6.5"
+  }
+}
