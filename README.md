@@ -30,7 +30,7 @@ Ejecutar servidor
 
 ## Demo
 
-https://laboratorioclinicoponiente.netlify.app/
+https://laboratorio-clinico-poniente.netlify.app/
 
 ## Autores
 
