@@ -30,6 +30,10 @@ export default defineConfig({
           src: `${path.resolve(__dirname, "./src/assets")}/[!.]*`, // 1️⃣
           dest: "./assets", // 2️⃣
         },
+        {
+          src: `${path.resolve(__dirname, "./src/pages")}/[!.]*`, // 1️⃣
+          dest: "./pages", // 2️⃣
+        },
       ],
     }),
   ]
