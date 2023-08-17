@@ -16,7 +16,8 @@
     "sass": "^1.65.1",
     "stylelint": "^15.10.2",
     "stylelint-config-manzdev": "^0.0.10",
-    "vite": "^4.4.5"
+    "vite": "^4.4.5",
+    "vite-plugin-static-copy": "^0.17.0"
   },
   "keywords": [],
   "license": "ISC",

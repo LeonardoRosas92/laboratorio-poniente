@@ -2,10 +2,10 @@ export const home = `
 <div id="carouselExampleIndicators" class="carousel slide">
   <div class="carousel-inner">
     <div class="carousel-item active position-relative">
-      <img src="./../assets/img/promociones/pruebaPcr.jpg" class="d-block w-100" alt="Imagen de estudio PCR">
+      <img src="/assets/img/promociones/pruebaPcr.jpg" class="d-block w-100" alt="Imagen de estudio PCR">
       <div class="h-100 card-promo d-flex flex-column justify-content-center align-items-center gap-2">
         <div class="card-promo-container-top">
-          <img src="./../assets/img/promociones/analisis.png" alt="Imagen de analisis" class="img-promotion">
+          <img src="/assets/img/promociones/analisis.png" alt="Imagen de analisis" class="img-promotion">
         </div>
         <div class="card-promo-container-bottom">
           <h4 class="title-promotion text-center md-h1">PRUEBA COVID-19 ANTIGENO Y PCR</h4>
