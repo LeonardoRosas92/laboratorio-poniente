@@ -5,7 +5,7 @@ const isGitHubPages = true;
 const folderName = `${path.basename(process.cwd())}/`;
 const mode =
   process.env.NODE_ENV === "production" ? "production" : "development";
-const base = mode === "production" && isGitHubPages ? `/${folderName}` : "/";
+const base = mode === "production" && isGitHubPages ? "" : "/";
 
 export default defineConfig({
   root: "src",
