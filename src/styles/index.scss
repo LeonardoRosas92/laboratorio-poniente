@@ -1,8 +1,41 @@
+@mixin mobile-large {
+  @media only screen and (min-width: 425px) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media only screen and (min-width: 768px) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media only screen and (min-width: 992px) {
+    @content;
+  }
+}
+
+@mixin large {
+  @media only screen and (min-width: 1200px) {
+    @content;
+  }
+}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+.max-width-320 {
+  max-width: 375px;
+}
+.text-color-principal {
+  color: #133752;
+}
+.text-shadow-red {
+  text-shadow: 3px 0px 0px #dc3545, -3px 0px 0px #dc3545, 0px 3px 0px #dc3545,
+    0px -3px 0px #dc3545, 2px 2px 0px #dc3545, -2px -2px 0px #dc3545,
+    2px -2px 0px #dc3545, -2px 2px 0px #dc3545;
 
 .logo {
   width: 100px;
@@ -17,29 +50,171 @@
       #00497a,
       #123651) !important;
 }
+.bg-green {
+  background-color: #2ec273;
+}
+.bg-blue-ligth {
+  background-color: #f5fbfe;
+}
+.logo {
+  width: 100px;
+  filter: invert(100%) sepia(100%) saturate(2%) hue-rotate(28deg)
+    brightness(107%) contrast(101%);
+}
 
 .card-promo {
   position: absolute;
   top: 0;
-  left: 10%;
-  width: 50%;
+  left: 5%;
+  width: 60%;
   background-color: rgba(255, 255, 255, 0.373);
+}
+.img-bg-promotion {
+  object-fit: cover;
 }
 
 .img-promotion {
-  width: 70px;
+  display: none;
+  @include mobile-large {
+    display: block;
+    width: 75px;
+  }
+  @include tablet {
+    display: block;
+    width: 150px;
+  }
+  @include desktop {
+    display: block;
+    width: 200px;
+  }
+  @include large {
+    display: block;
+    width: 250px;
+  }
 }
 
 .title-promotion {
-  font-size: 18px;
+  font-size: 1.6rem;
+  @include mobile-large {
+    font-size: 1.7rem;
+  }
+  @include tablet {
+    font-size: 2rem;
+  }
+  @include desktop {
+    font-size: 3.5rem;
+  }
+  @include large {
+    font-size: 5rem;
+  }
 }
 
 .subtitle-promotion {
-  font-size: 14px;
+  font-size: 1rem;
+  @include mobile-large {
+    font-size: 1.2rem;
+  }
+  @include tablet {
+    font-size: 1.8rem;
+  }
+  @include desktop {
+    font-size: 2.5rem;
+  }
+  @include large {
+    font-size: 3rem;
+  }
 }
 
 .title-promotion-important {
-  font-size: 26px;
+  font-size: 2rem;
+  border-bottom: 2px solid red;
+  border-top: 2px solid red;
+  @include mobile-large {
+    font-size: 2.5rem;
+  }
+  @include tablet {
+    font-size: 3.2rem;
+    border-bottom: 3px solid red;
+    border-top: 3px solid red;
+  }
+  @include desktop {
+    font-size: 4.5rem;
+    border-bottom: 5px solid red;
+    border-top: 5px solid red;
+  }
+  @include large {
+    font-size: 7rem;
+    border-bottom: 6px solid red;
+    border-top: 6px solid red;
+  }
+}
+.btn-green {
+  font-size: 0.9rem;
+  transition: all;
+  @include tablet {
+    font-size: 1.2rem;
+  }
+  @include desktop {
+    font-size: 1.3rem;
+  }
+}
+.section-title {
+  font-size: 1.3rem;
+  border-bottom: 2px solid black;
+  @include tablet {
+    font-size: 2rem;
+    border-bottom: 3px solid black;
+  }
+  @include desktop {
+    font-size: 2.3rem;
+    border-bottom: 4px solid black;
+  }
+}
+.text-title-destacado {
+  font-size: 1.5rem;
+  @include tablet {
+    font-size: 2rem;
+  }
+  @include desktop {
+    font-size: 2.1rem;
+  }
+  @include large {
+    font-size: 2.6rem;
+  }
+}
+
+.text-subtitle-destacado {
+  font-size: 1rem;
+  text-align: justify;
+  @include tablet {
+    font-size: 1.1rem;
+  }
+  @include desktop {
+    font-size: 1.2rem;
+  }
+  @include large {
+    font-size: 1rem;
+  }
+}
+
+ul {
+  padding-left: 0;
+  margin: 0;
+  li {
+    font-size: 0.7rem;
+    @include mobile-large {
+      font-size: 0.8rem;
+    }
+    @include tablet {
+      font-size: 1.2rem;
+    }
+    @include desktop {
+      font-size: 1.5rem;
+    }
+    @include large {
+      font-size: 2;
+    }
+  }
 }
 
 .text-shadow-red {
