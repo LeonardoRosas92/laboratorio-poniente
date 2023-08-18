@@ -36,16 +36,19 @@
   text-shadow: 3px 0px 0px #dc3545, -3px 0px 0px #dc3545, 0px 3px 0px #dc3545,
     0px -3px 0px #dc3545, 2px 2px 0px #dc3545, -2px -2px 0px #dc3545,
     2px -2px 0px #dc3545, -2px 2px 0px #dc3545;
+
+.logo {
+  width: 100px;
+  filter: invert(100%) sepia(100%) saturate(2%) hue-rotate(28deg) brightness(107%) contrast(101%);
 }
+
 .bg-gradient {
-  background-image: linear-gradient(
-    to right,
-    #171a1d,
-    #006dd2,
-    #005ba6,
-    #00497a,
-    #123651
-  ) !important;
+  background-image: linear-gradient(to right,
+      #171a1d,
+      #006dd2,
+      #005ba6,
+      #00497a,
+      #123651) !important;
 }
 .bg-green {
   background-color: #2ec273;
@@ -58,6 +61,7 @@
   filter: invert(100%) sepia(100%) saturate(2%) hue-rotate(28deg)
     brightness(107%) contrast(101%);
 }
+
 .card-promo {
   position: absolute;
   top: 0;
@@ -68,6 +72,7 @@
 .img-bg-promotion {
   object-fit: cover;
 }
+
 .img-promotion {
   display: none;
   @include mobile-large {
@@ -87,6 +92,7 @@
     width: 250px;
   }
 }
+
 .title-promotion {
   font-size: 1.6rem;
   @include mobile-large {
@@ -102,6 +108,7 @@
     font-size: 5rem;
   }
 }
+
 .subtitle-promotion {
   font-size: 1rem;
   @include mobile-large {
@@ -117,6 +124,7 @@
     font-size: 3rem;
   }
 }
+
 .title-promotion-important {
   font-size: 2rem;
   border-bottom: 2px solid red;
@@ -207,4 +215,10 @@ ul {
       font-size: 2;
     }
   }
+}
+
+.text-shadow-red {
+  text-shadow: 3px 0px 0px #dc3545, -3px 0px 0px #dc3545, 0px 3px 0px #dc3545,
+    0px -3px 0px #dc3545, 2px 2px 0px #dc3545, -2px -2px 0px #dc3545,
+    2px -2px 0px #dc3545, -2px 2px 0px #dc3545;
 }

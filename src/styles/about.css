@@ -1,7 +1,8 @@
 
 img {
-    height: 362px;
-    width: 543px;
+    /* height: 362px;
+    width: 543px; */
+    border-radius: 10px;
 }
 
 .row-info {
@@ -15,8 +16,4 @@ img {
 
 p{
     text-align: justify;
-}
-
-img {
-    border-radius: 10px;
 }
