@@ -9,12 +9,12 @@
     <!--Section description-->
 
     <p class="text-center w-responsive mx-2 my-2 justify-content-center ">¿Tiene alguna pregunta? <br>
-      Contáctese con nosotros, responderemos en breve.</p>
+      Póngase en contacto con nosotros, responderemos en breve.</p>
     <div class="row  mx-2">
 
       <!--Grid column-->
       <div class="w-100 col-md-9 mb-md-0 mb-5 ">
-        <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+        <form id="contact-form" name="contact-form" action="./" method="POST">
 
           <!--Grid row-->
           <div class="row">
@@ -22,8 +22,8 @@
             <!--Grid column-->
             <div class="col-md-6">
               <div class="md-form mb-0">
-                <label for="name" class="">Nombre</label>
-                <input type="text" id="name" name="name" class="form-control">
+                <label for="name" class=""></label>
+                <input type="text" id="name" name="name" class="form-control" placeholder="Nombre">
               </div>
             </div>
             <!--Grid column-->
@@ -31,8 +31,8 @@
             <!--Grid column-->
             <div class="col-md-6">
               <div class="md-form mb-0">
-                <label for="email" class="">E-mail</label>
-                <input type="text" id="email" name="email" class="form-control">
+                <label for="email" class=""></label>
+                <input type="text" id="email" name="email" class="form-control" placeholder="E-mail">
               </div>
             </div>
             <!--Grid column-->
@@ -44,14 +44,14 @@
           <div class="row">
             <div class="col-md-6">
               <div class="md-form mb-0">
-                <label for="numero" class="">Número</label>
-                <input type="text" id="numero" name="numero" class="form-control">
+                <label for="numero" class=""></label>
+                <input type="text" id="numero" name="numero" class="form-control" placeholder="Número">
               </div>
             </div>
             <div class="col-md-6">
               <div class="md-form mb-0">
-                <label for="subject" class="">Asunto</label>
-                <input type="text" id="subject" name="subject" class="form-control">
+                <label for="subject" class=""></label>
+                <input type="text" id="subject" name="subject" class="form-control" placeholder="Asunto">
               </div>
             </div>
           </div>
@@ -64,15 +64,16 @@
             <div class="col-md-12">
 
               <div class="md-form">
-                <label for="message">Mensaje</label>
-                <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                <label for="message"></label>
+                <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"
+                  placeholder="Mensaje"></textarea>
               </div>
             </div>
           </div>
           <!--Grid row-->
         </form>
         <div class="text-center mt-4 my-lg-4">
-          <button onclick="document.getElementById('contact-form').submit();"> Enviar</button>
+          <button type="submit" onclick="document.getElementById('contact-form').submit();">Enviar</button>
         </div>
         <div class="status"></div>
       </div>

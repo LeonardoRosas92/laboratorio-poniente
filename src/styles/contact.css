@@ -23,7 +23,7 @@
 }
 
 .btnGreen{
-  background: #239156;
+  background: #1ABF67;
   color: white;
 }
 
@@ -44,4 +44,8 @@ button:hover {
 p{
   text-align: justify;
   text-justify: inter-word;
+}
+
+::placeholder{
+color: #131F2B !important
 }
