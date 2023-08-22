@@ -1,16 +1,19 @@
 <!-- Formulario -->
-<div class="container py-3" id="envianosMensaje">
+<div class="container my-5 px-0" id="envianosMensaje">
   <!--Section: Contact v.2-->
+  <div class="d-flex justify-content-center align-items-center" id="tituloubi">
+    <h3>Contáctanos</h3>
+  </div>
   <div class="mb-4">
     <!--Section heading-->
-    <h2 class="h1-responsive font-weight-bold text-center">Contáctanos</h2>
     <!--Section description-->
-    <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact us
-      directly. Our team will come back to you within a matter of hours to help you.</p>
-    <div class="row">
+
+    <p class="text-center w-responsive mx-2 my-2 justify-content-center ">¿Tiene alguna pregunta? <br>
+      Contáctese con nosotros, responderemos en breve.</p>
+    <div class="row  mx-2">
 
       <!--Grid column-->
-      <div class="w-100 col-md-9 mb-md-0 mb-5">
+      <div class="w-100 col-md-9 mb-md-0 mb-5 ">
         <form id="contact-form" name="contact-form" action="mail.php" method="POST">
 
           <!--Grid row-->
@@ -28,7 +31,7 @@
             <!--Grid column-->
             <div class="col-md-6">
               <div class="md-form mb-0">
-                <label for="email" class="">Email</label>
+                <label for="email" class="">E-mail</label>
                 <input type="text" id="email" name="email" class="form-control">
               </div>
             </div>
@@ -41,13 +44,13 @@
           <div class="row">
             <div class="col-md-6">
               <div class="md-form mb-0">
-                <label for="numero" class="">Numero</label>
+                <label for="numero" class="">Número</label>
                 <input type="text" id="numero" name="numero" class="form-control">
               </div>
             </div>
             <div class="col-md-6">
               <div class="md-form mb-0">
-                <label for="subject" class="">Subject</label>
+                <label for="subject" class="">Asunto</label>
                 <input type="text" id="subject" name="subject" class="form-control">
               </div>
             </div>
@@ -61,15 +64,15 @@
             <div class="col-md-12">
 
               <div class="md-form">
-                <label for="message">Your message</label>
+                <label for="message">Mensaje</label>
                 <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
               </div>
             </div>
           </div>
           <!--Grid row-->
         </form>
-        <div class="text-center mt-4">
-          <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+        <div class="text-center mt-4 my-lg-4">
+          <button onclick="document.getElementById('contact-form').submit();"> Enviar</button>
         </div>
         <div class="status"></div>
       </div>
@@ -80,26 +83,28 @@
 
 
 <!-- Ubicacion -->
-<h3 class="text-center">Ubicación </h3>
-<div class="container justify-content-center align-items-center mb-5" id="ubicacion">
-  <div class="row justify-content-center align-items-center">
+<div class="container justify-content-center align-items-center my-5 p-3" id="ubicacion">
+  <div class="row d-flex justify-content-center align-items-center">
     <div class="col-12 col-md-6 justify-content-center align-items-center">
+      <h3 class="text-center">Ubicación </h3>
+      <hr>
       <div class="row d-flex flex-column align-items-center">
         <i class="bi bi-geo-alt col-2 icon text-center"></i>
-        <p class="text-center col-10 p-0">Calle 24 #81 Local 2 x 19 y 21 Col. Chichén Itzá, Mérida Yucatán </p>
+        <p class="text-center col-10 p-0">Calle 16 Por 23, Fraccionamiento Mulsay,</p>
       </div>
       <div class="row d-flex flex-column align-items-center">
         <i class="bi bi-telephone col-2 icon text-center"></i>
-        <p class="text-center col-10 p-0">(55)-68-18-40-52</p>
+        <p class="text-center col-10 p-0 mt-2"> Tel 1: +529993303828 </p>
+        <p class="text-center col-10 p-0"> Tel 2: +529991609043</p>
       </div>
     </div>
 
     <div class="col-12 col-md-6 d-flex justify-content-center">
       <!-- Imagen de la ubicacion -->
       <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d931.4312027275879!2d-89.58134006207823!3d20.963563588154084!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f567154af647339%3A0x6671a2e4fa3e35f1!2sLABORATORIO%20CL%C3%8DNICO%20PONIENTE%20(LCP)!5e0!3m2!1ses-419!2smx!4v1692141021045!5m2!1ses-419!2smx"
-        style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
-        class="map"></iframe>
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3725.5280946325615!2d-89.6732252970978!3d20.97145805367061!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f567332c5785f71%3A0xa8eb5ca7f0e72ab3!2sLCP%20MULSAY!5e0!3m2!1ses-419!2smx!4v1692676522661!5m2!1ses-419!2smx"
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
   </div>
 </div>
