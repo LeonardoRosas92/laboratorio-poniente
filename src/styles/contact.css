@@ -1,12 +1,15 @@
-#envianosMensaje{
-    background: #F3CB67;
-  }
+#envianosMensaje {
+  background: #f4faff;
+}
 
-#form{
-    background: #F1DFAB;
-  }
-  
-#ubicacion{
-    background: grey;
-    
-  }
+#form {
+  background: #f1dfab;
+}
+
+#ubicacion {
+  background: #f4faff;
+}
+
+.icon {
+  font-size: 1.8rem;
+}
