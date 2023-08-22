@@ -1,0 +1,19 @@
+
+img {
+    /* height: 362px;
+    width: 543px; */
+    border-radius: 10px;
+}
+
+.row-info {
+    background-color: #F4FAFF;
+    border-radius: 20px 0 20px 0;
+}
+
+#cabeza {
+        background: linear-gradient(to right, #1f7dfe, #006dd2, #005ba6, #00497a, #123651);
+      }
+
+p{
+    text-align: justify;
+}

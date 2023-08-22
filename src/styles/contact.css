@@ -1,0 +1,51 @@
+#envianosMensaje {
+  background: #AAC7FF;
+  border-radius: 20px;
+}
+
+#form {
+  background: #f1dfab;
+}
+
+#ubicacion {
+  background: #EFF8FF;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+
+.icon {
+  font-size: 1.8rem;
+}
+#tituloubi{
+  background: linear-gradient(to right, #1f7dfe, #006dd2, #005ba6, #00497a, #123651);
+  border-radius: 20px 20px 0 0;
+  color: white;
+}
+
+.btnGreen{
+  background: #1ABF67;
+  color: white;
+}
+
+button{
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  background-color: #239156;
+  color: white;
+  font-weight: bold;
+}
+
+button:hover {
+  background: #49B171;
+  color: rgb(255, 255, 255);
+}
+
+p{
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+::placeholder{
+color: #131F2B !important
+}

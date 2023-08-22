@@ -1,3 +1,111 @@
-<div>
-  <h4>Contact us</h4>
+<!-- Formulario -->
+<div class="container my-5 px-0" id="envianosMensaje">
+  <!--Section: Contact v.2-->
+  <div class="d-flex justify-content-center align-items-center" id="tituloubi">
+    <h3>Contáctanos</h3>
+  </div>
+  <div class="mb-4">
+    <!--Section heading-->
+    <!--Section description-->
+
+    <p class="text-center w-responsive mx-2 my-2 justify-content-center ">¿Tiene alguna pregunta? <br>
+      Póngase en contacto con nosotros, responderemos en breve.</p>
+    <div class="row  mx-2">
+
+      <!--Grid column-->
+      <div class="w-100 col-md-9 mb-md-0 mb-5 ">
+        <form id="contact-form" name="contact-form" action="./" method="POST">
+
+          <!--Grid row-->
+          <div class="row">
+
+            <!--Grid column-->
+            <div class="col-md-6">
+              <div class="md-form mb-0">
+                <label for="name" class=""></label>
+                <input type="text" id="name" name="name" class="form-control" placeholder="Nombre">
+              </div>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-md-6">
+              <div class="md-form mb-0">
+                <label for="email" class=""></label>
+                <input type="text" id="email" name="email" class="form-control" placeholder="E-mail">
+              </div>
+            </div>
+            <!--Grid column-->
+
+          </div>
+          <!--Grid row-->
+
+          <!--Grid row-->
+          <div class="row">
+            <div class="col-md-6">
+              <div class="md-form mb-0">
+                <label for="numero" class=""></label>
+                <input type="text" id="numero" name="numero" class="form-control" placeholder="Número">
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="md-form mb-0">
+                <label for="subject" class=""></label>
+                <input type="text" id="subject" name="subject" class="form-control" placeholder="Asunto">
+              </div>
+            </div>
+          </div>
+          <!--Grid row-->
+
+          <!--Grid row-->
+          <div class="row">
+
+            <!--Grid column-->
+            <div class="col-md-12">
+
+              <div class="md-form">
+                <label for="message"></label>
+                <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"
+                  placeholder="Mensaje"></textarea>
+              </div>
+            </div>
+          </div>
+          <!--Grid row-->
+        </form>
+        <div class="text-center mt-4 my-lg-4">
+          <button type="submit" onclick="document.getElementById('contact-form').submit();">Enviar</button>
+        </div>
+        <div class="status"></div>
+      </div>
+    </div>
+  </div>
+  <!--Section: Contact v.2-->
+</div>
+
+
+<!-- Ubicacion -->
+<div class="container justify-content-center align-items-center my-5 p-3" id="ubicacion">
+  <div class="row d-flex justify-content-center align-items-center">
+    <div class="col-12 col-md-6 justify-content-center align-items-center">
+      <h3 class="text-center">Ubicación </h3>
+      <hr>
+      <div class="row d-flex flex-column align-items-center">
+        <i class="bi bi-geo-alt col-2 icon text-center"></i>
+        <p class="text-center col-10 p-0">Calle 16 Por 23, Fraccionamiento Mulsay,</p>
+      </div>
+      <div class="row d-flex flex-column align-items-center">
+        <i class="bi bi-telephone col-2 icon text-center"></i>
+        <p class="text-center col-10 p-0 mt-2"> Tel 1: +529993303828 </p>
+        <p class="text-center col-10 p-0"> Tel 2: +529991609043</p>
+      </div>
+    </div>
+
+    <div class="col-12 col-md-6 d-flex justify-content-center">
+      <!-- Imagen de la ubicacion -->
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3725.5280946325615!2d-89.6732252970978!3d20.97145805367061!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f567332c5785f71%3A0xa8eb5ca7f0e72ab3!2sLCP%20MULSAY!5e0!3m2!1ses-419!2smx!4v1692676522661!5m2!1ses-419!2smx"
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
 </div>
